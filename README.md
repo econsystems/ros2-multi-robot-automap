@@ -113,7 +113,7 @@ source /opt/ros/humble/setup.bash
 Then:
 
 ```bash
-git clone https://git.e-consystems.net/tsm02/ros2_humble.git
+git clone https://github.com/econsystems/ros2-multi-robot-automap.git
 
 cd ros2_humble/multi_robot_autonomous
 rosdep update
