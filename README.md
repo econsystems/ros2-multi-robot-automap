@@ -115,7 +115,7 @@ Then:
 ```bash
 git clone https://github.com/econsystems/ros2-multi-robot-automap.git
 
-cd ros2_humble/multi_robot_autonomous
+cd ros2-multi-robot-automap
 rosdep update
 rosdep install --from-paths src --ignore-src -r -y
 ```
@@ -138,7 +138,7 @@ Reference repositories:
 Clone and build:
 
 ```bash
-cd ros2_humble/multi_robot_autonomous
+cd ros2-multi-robot-automap
 colcon build --cmake-clean-cache --symlink-install --packages-select nav2_bringup slam_toolbox
 ```
 
@@ -156,7 +156,7 @@ Required packages:
 Build them:
 
 ```bash
-cd ros2_humble/multi_robot_autonomous
+cd ros2-multi-robot-automap
 colcon build --cmake-clean-cache --symlink-install --packages-select \
   multi_robot_exploration \
   merge_map \
