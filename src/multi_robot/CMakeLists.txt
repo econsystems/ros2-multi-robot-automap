@@ -24,10 +24,6 @@ install(DIRECTORY params/
   DESTINATION share/${PROJECT_NAME}/params
 )
 
-install(DIRECTORY config/
-  DESTINATION share/${PROJECT_NAME}/config
-)
-
 install(DIRECTORY maps/
   DESTINATION share/${PROJECT_NAME}/maps
 )
